@@ -23,8 +23,13 @@ startServer(){
 source server/startServer.sh
 }
 
+setupClient(){
+source client/main.sh
+}
+
 getServer
 getClient
 #getSDK
 
 startServer
+setupClient
