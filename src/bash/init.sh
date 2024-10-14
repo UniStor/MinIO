@@ -3,8 +3,8 @@ language=Python
 
 cache_dir=~/.uni/cache/minio
 
-return(){
-cd - > /dev/null
+alias(){
+source alias/main.sh
 }
 
 getServer(){
