@@ -1,16 +1,18 @@
 data_dir=/mnt/data
 
+server_download_url="https://dl.min.io/server/minio/release/linux-amd64/minio_20241002175041.0.0_amd64.deb"
+
 installServer(){
 if [ ! -f ${cache_dir}/minio_*_amd64.deb ]; then
   mkdir -p ${cache_dir}
   cd ${cache_dir}
-  wget https://dl.min.io/server/minio/release/linux-amd64/minio_20241002175041.0.0_amd64.deb
+  wget ${server_download_url}
 fi
 
 if ! command -v minio 2>&1 >/dev/null
 then
   echo "could not be found"
-  sudo dpkg -i minio_20241002175041.0.0_amd64.deb
+  sudo dpkg -i minio_*_amd64.deb
 fi
 
 if [ ! -d ${data_dir} ]; then
