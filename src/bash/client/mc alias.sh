@@ -1,0 +1,2 @@
+#LineInFile
+alias mc="mcli"
