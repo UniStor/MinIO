@@ -1,0 +1,1 @@
+vcpkg install minio-cpp
