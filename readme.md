@@ -1,7 +1,7 @@
 **No longer Truly Open-Source!**
+https://linuxiac.com/minio-with-yet-another-controversial-move/
 
 # Alternative:
-https://linuxiac.com/minio-with-yet-another-controversial-move/
 - [Garage](https://garagehq.deuxfleurs.fr/)
 - [RustFS](https://github.com/rustfs/rustfs)
 
