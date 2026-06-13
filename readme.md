@@ -1,6 +1,12 @@
-# MinIO
-Simple & elegant Object Storage.
+**No longer Truly Open-Source!**
 
+# Alternative:
+https://linuxiac.com/minio-with-yet-another-controversial-move/
+- [Garage](https://garagehq.deuxfleurs.fr/)
+- [RustFS](https://github.com/rustfs/rustfs)
+
+
+# MinIO
 # Home:
 - https://min.io
 - Source: https://github.com/minio/
